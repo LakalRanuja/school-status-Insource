@@ -1,0 +1,98 @@
+.main-teacher{
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.sub-teacher{
+    padding-top: 30px;
+    animation: scrolling 15s infinite;
+    transition: all 2s;
+    transform: translateY(-100%);
+    margin: auto;
+    /* display: flex; */
+}
+
+@keyframes scrolling {
+    0% {
+        display: none;
+		transform: translateY(-130%)
+	}
+	50% {
+		transform: translateY(0%)
+	}
+    100%{
+        transform: translateY(120%);
+        display: none;
+    }
+    /* 80%{
+        transform: translateY();
+    } */
+    
+}
+
+.tab1{
+    position: relative;
+    top: 20px;
+    left: 70px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+}
+
+.tab3{
+    position: relative;
+    top: 30px;
+    left: 70px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tab4{
+    position: relative;
+    top: 40px;
+    left: 70px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tab5{
+    position: relative;
+    top: 50px;
+    left: 70px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tab6{
+    position: relative;
+    top: 60px;
+    left: 70px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tab7{
+    position: relative;
+    top: 70px;
+    left: 70px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tab2{
+    color: black;
+    font-weight: bold;
+}
